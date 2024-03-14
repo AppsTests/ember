@@ -1,56 +1,24 @@
-# twc-app-example-ember
+![Ember Logo](https://st.timeweb.com/cloud-static/apps-logo/ember.svg)
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+# Ember
 
-## Prerequisites
+Пример приложения [Ember](https://emberjs.com/), которое можно развернуть в **Timeweb Cloud Apps** без настройки.
 
-You will need the following things properly installed on your computer.
+:tada: [Демо](https://timeweb-cloud-app-example-ember-04af.twc1.net)
 
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with npm)
-* [Ember CLI](https://cli.emberjs.com/release/)
-* [Google Chrome](https://google.com/chrome/)
+:rocket: [Создать свой Apps](https://timeweb.cloud/my/apps/create)
 
-## Installation
+:books: [Документация Timeweb Cloud Apps](https://timeweb.cloud/docs/apps)
 
-* `git clone <repository-url>` this repository
-* `cd twc-app-example-ember`
-* `npm install`
+## <a name="dev"></a>Локальный запуск проекта
 
-## Running / Development
+```bash
+# установка зависимостей
+npm install
 
-* `npm run start`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
+# запуск в дев режиме с отслеживанием изменений
+npm run start
 
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `npm run test`
-* `npm run test:ember -- --server`
-
-### Linting
-
-* `npm run lint`
-* `npm run lint:fix`
-
-### Building
-
-* `npm exec ember build` (development)
-* `npm run build` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](https://emberjs.com/)
-* [ember-cli](https://cli.emberjs.com/release/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+# сборка для продакшн с минификацией
+npm run build
+```
